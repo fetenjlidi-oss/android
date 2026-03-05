@@ -11,6 +11,8 @@ class TraitementActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()  //
+
         binding = ActivityTraitementBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -40,6 +42,12 @@ class TraitementActivity : AppCompatActivity() {
                 R.id.nav_traitement -> true
                 else -> false
             }
+        }
+        binding.btnAddMedicine.setOnClickListener {
+            startActivity(Intent(this, MedicationTimeActivity::class.java))
+        }
+        binding.btnAddMedicine.setOnClickListener {
+            startActivity(Intent(this, AddTreatmentActivity::class.java))
         }
     }
 }
