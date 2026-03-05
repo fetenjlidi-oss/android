@@ -23,9 +23,24 @@
         </activity>
 
         <!-- Home (no intent-filter needed) -->
-
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".TraitementActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MedicationTimeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AddTreatmentActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MedicationFrequencyActivity"
             android:exported="false"
             android:screenOrientation="portrait"/>
     </application>

@@ -9,6 +9,7 @@ class LoginActivity:   AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.hide()  //
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -51,7 +52,7 @@ class LoginActivity:   AppCompatActivity() {
 
         return isValid
     }  private fun navigateToTraitement() {
-        startActivity(Intent(this, TraitementActivity::class.java))
+        startActivity(Intent(this, HomeActivity::class.java))
         finish()
     }
 

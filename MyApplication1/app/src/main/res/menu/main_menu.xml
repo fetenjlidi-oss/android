@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_today"
+        android:title="My Profile"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_appointments"
+        android:icon="@drawable/ic_today"
+        android:title="Appointments"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_medicine"
+        android:icon="@drawable/ic_medicine"
+        android:title="My Medicine"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_today"
+        android:title="Notifications"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_support"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_progress"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>
